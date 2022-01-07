@@ -1,7 +1,8 @@
+import API_KEY from './apikey.js';
+
 let weather = {
 
-    // apikey: API_KEY,
-    apikey: "e64390a602e22f6363af02f7ce636e11",
+    apikey: API_KEY,
     fetchWeather: function(city) {
         fetch(
              "http://api.openweathermap.org/data/2.5/weather?q=" 
