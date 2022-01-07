@@ -1,5 +1,3 @@
-import API_KEY from './apikey.js';
-
 let weather = {
 
     // apikey: API_KEY,
